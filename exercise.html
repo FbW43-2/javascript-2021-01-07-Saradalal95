@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="exercise.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1>1-palindrome</h1>
+        <label for="palindrome">check if the word is a palindrome:</label>
+        <input type="text" id="palindrome" name="palindrome" />
+        <button type="submit" onclick="checkPalindrome()">Submit</button>
+      </div>
+
+      <div class="container">
+        <h1>2-alphabetic order</h1>
+        <label for="order">Enter the word to order it alphabeticly:</label>
+        <input type="text" id="order" name="order" />
+        <button type="submit" onclick="alphabeticOrder()">Submit</button>
+      </div>
+      <div class="container">
+        <h1>3-Reversed number</h1>
+        <label for="reverse-number">Enter the number here to reverse it:</label>
+        <input type="text" id="reverse-number" name="reverse-number" />
+        <button type="submit" onclick="reversedNumber()">Submit</button>
+      </div>
+      <div class="container">
+        <h1>4-Longest word</h1>
+        <label for="longest"
+          >Enter your text here to find the longest word in it:</label
+        >
+        <input type="text" id="longest" name="longest" />
+        <button type="submit" onclick="longestWord()">Submit</button>
+      </div>
+      <div class="container">
+        <h1>5-Matching Arrays</h1>
+        <h4>Get an array of elements that appear in both arrays</h4>
+        <label for="Array1">Array-1</label>
+        <input type="text" id="Array1" name="Array1" />
+        <label for="Array2"> Array-2</label>
+        <input type="text" id="Array2" name="Array2" />
+        <button type="submit" onclick="matchArrays()">Submit</button>
+      </div>
+      <div class="container">
+        <h1>6-Unique values</h1>
+        <h4>filter out the non-unique values in an array</h4>
+        <label for="Array">Array</label>
+        <input type="text" id="Array" name="Array" />
+        <button type="submit" onclick="uniqueValues()">Submit</button>
+      </div>
+      <div class="container">
+        <h1>7-Array of digits</h1>
+        <h4>converts a specified number to an array of digits</h4>
+        <label for="digitsArray">digits array</label>
+        <input type="text" id="digitsArray" name="digitsArray" />
+        <button type="submit" onclick="arrayOfDigits()">Submit</button>
+      </div>
+    </form>
+  </body>
+  <script src="exercise.js"></script>
+</html>

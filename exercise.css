@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(247, 238, 253);
+  text-align: center;
+}
+h1{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+input{
+    width: 15rem;
+}
+.container{
+    background-color: white;
+    padding: 0.5rem;
+    width: 25rem;
+    margin: 0 auto;
+}
